@@ -6,7 +6,7 @@ var express = require('express'),
   bodyParser = require('body-parser');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/Tododb');
+mongoose.connect('mongodb://yatenderpoonia1:yatender123@ds141242.mlab.com:41242/food_database');
 
 
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -20,6 +20,8 @@ app.use(function(req, res) {
   res.status(404).send({url: req.originalUrl + ' not found'})
 });
 
-app.listen(port);
+app.listen(port,function(){
+  console.log('app listging on port %d',process.env.PORT)
+});
 
-console.log('todo list RESTful API server started on: ' + port);
+
