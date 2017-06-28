@@ -8,9 +8,9 @@ var mongoose = require('mongoose');
 var checkoutSchema=mongoose.Schema({
     name:{type:String},
     address:{type:String},
-    payment:{"number":Number,"expire":String,"cvc":Number,"type":String},
+    payment:{"type":String,"number":Number,"expire":String,"cvc":Number},
     items:[{"name":String,"price":String,"qty":Number}],
-    total_amount:{type:Number}
+    total:{type:Number}
 });
 
 
