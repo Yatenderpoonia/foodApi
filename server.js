@@ -2,12 +2,13 @@ var express = require('express'),
   app = express(),
   port = process.env.PORT || 5000,
   mongoose = require('mongoose'),
+    Checkout = require('./api/models/CheckoutListModel'),
   Task = require('./api/models/todoListModel'),
-    Checkouts= require('.api/models/todoListModel'),
   bodyParser = require('body-parser');
 
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://yatenderpoonia1:yatender123@ds141242.mlab.com:41242/food_database');
+//mongoose.connect('mongodb://localhost/Tododb');
 
 var allowCrossDomain = function(req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');

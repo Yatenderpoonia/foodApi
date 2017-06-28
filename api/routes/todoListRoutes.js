@@ -7,7 +7,7 @@ module.exports = function(app) {
 	app.route('/feedback')
 		.get(todoList.list_all_tasks)
 		.post(todoList.create_a_task);
-	app.route('/chekout')
+	app.route('/checkout')
 		.get(CheckoutList.list_checkout)
 	    .post(CheckoutList.create_checkout);
 	app.route('/tasks/:taskId')
