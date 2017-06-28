@@ -21,27 +21,9 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+            <state relative-caret-position="493">
+              <caret line="29" column="52" lean-forward="false" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-              <folding>
-                <marker date="1498628244632" expanded="true" signature="0:763" ph="{&quot;name&quot;: &quot;todolistapi&quot;...}" />
-                <marker date="1498628244632" expanded="true" signature="124:218" ph="{&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;...}" />
-                <marker date="1498628244632" expanded="true" signature="236:330" ph="{&quot;type&quot;: &quot;git&quot;...}" />
-                <marker date="1498628244632" expanded="true" signature="346:392" ph="[...]" />
-                <marker date="1498628244632" expanded="true" signature="455:529" ph="{&quot;url&quot;: &quot;https://github.com/generalgmt/RESTfulAPITutorial/issues&quot;...}" />
-                <marker date="1498628244632" expanded="true" signature="625:655" ph="{&quot;nodemon&quot;: &quot;^1.11.0&quot;...}" />
-                <marker date="1498628244632" expanded="true" signature="675:761" ph="{&quot;body-parser&quot;: &quot;^1.15.2&quot;...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -56,37 +38,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todoListRoutes.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="todoListRoutes.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/routes/todoListRoutes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todoListController.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="todoListController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/controllers/todoListController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="757">
+              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todoListModel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/models/todoListModel.js">
+      <file leaf-file-name="CheckoutListModel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/models/CheckoutListModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="34" column="42" lean-forward="false" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+            <state relative-caret-position="272">
+              <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,10 +89,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/api/models/todoListModel.js" />
-        <option value="$PROJECT_DIR$/api/routes/todoListRoutes.js" />
         <option value="$PROJECT_DIR$/api/controllers/todoListController.js" />
+        <option value="$PROJECT_DIR$/api/controllers/CheckoutListController.js" />
+        <option value="$PROJECT_DIR$/api/models/todoListModel.js" />
+        <option value="$PROJECT_DIR$/api/models/CheckoutListModel.js" />
+        <option value="$PROJECT_DIR$/api/routes/todoListRoutes.js" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -816,7 +807,7 @@
       <updated>1498553715435</updated>
       <workItem from="1498553727630" duration="6252000" />
       <workItem from="1498566382172" duration="5355000" />
-      <workItem from="1498625658860" duration="8089000" />
+      <workItem from="1498625658860" duration="8869000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/Yatenderpoonia/foodApi&#10;&#10;# Conflicts:&#10;#&#9;README.md">
       <created>1498572713304</created>
@@ -839,11 +830,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498630603157</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix bug">
+      <created>1498639697512</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1498639697512</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19696000" />
+    <option name="totallyTimeSpent" value="20476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-4" width="1309" height="772" extended-state="6" />
@@ -908,15 +906,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1498628244632" expanded="true" signature="0:763" ph="{&quot;name&quot;: &quot;todolistapi&quot;...}" />
-            <marker date="1498628244632" expanded="true" signature="124:218" ph="{&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;...}" />
-            <marker date="1498628244632" expanded="true" signature="236:330" ph="{&quot;type&quot;: &quot;git&quot;...}" />
-            <marker date="1498628244632" expanded="true" signature="346:392" ph="[...]" />
-            <marker date="1498628244632" expanded="true" signature="455:529" ph="{&quot;url&quot;: &quot;https://github.com/generalgmt/RESTfulAPITutorial/issues&quot;...}" />
-            <marker date="1498628244632" expanded="true" signature="625:655" ph="{&quot;nodemon&quot;: &quot;^1.11.0&quot;...}" />
-            <marker date="1498628244632" expanded="true" signature="675:761" ph="{&quot;body-parser&quot;: &quot;^1.15.2&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -962,48 +952,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
+        <state relative-caret-position="416">
           <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-          <folding>
-            <marker date="1498628244632" expanded="true" signature="0:763" ph="{&quot;name&quot;: &quot;todolistapi&quot;...}" />
-            <marker date="1498628244632" expanded="true" signature="124:218" ph="{&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;...}" />
-            <marker date="1498628244632" expanded="true" signature="236:330" ph="{&quot;type&quot;: &quot;git&quot;...}" />
-            <marker date="1498628244632" expanded="true" signature="346:392" ph="[...]" />
-            <marker date="1498628244632" expanded="true" signature="455:529" ph="{&quot;url&quot;: &quot;https://github.com/generalgmt/RESTfulAPITutorial/issues&quot;...}" />
-            <marker date="1498628244632" expanded="true" signature="625:655" ph="{&quot;nodemon&quot;: &quot;^1.11.0&quot;...}" />
-            <marker date="1498628244632" expanded="true" signature="675:761" ph="{&quot;body-parser&quot;: &quot;^1.15.2&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/models/todoListModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="34" column="42" lean-forward="false" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/routes/todoListRoutes.js">
+    <entry file="file://$PROJECT_DIR$/api/controllers/CheckoutListController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models/CheckoutListModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/controllers/todoListController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="757">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="52" lean-forward="false" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/routes/todoListRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
