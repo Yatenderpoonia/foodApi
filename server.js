@@ -2,10 +2,10 @@ var express = require('express'),
   app = express(),
   port = process.env.PORT || 5000,
   mongoose = require('mongoose'),
-    Checkout = require('./api/models/CheckoutListModel'),
-  Task = require('./api/models/todoListModel'),
     Login = require('./api/models/loginListModel'),
     Signup = require('./api/models/signupListModel'),
+    Checkout = require('./api/models/CheckoutListModel'),
+  Task = require('./api/models/todoListModel'),
   bodyParser = require('body-parser');
 
 mongoose.Promise = global.Promise;
