@@ -4,6 +4,8 @@ var express = require('express'),
   mongoose = require('mongoose'),
     Checkout = require('./api/models/CheckoutListModel'),
   Task = require('./api/models/todoListModel'),
+    Login = require('./api/models/loginListModel'),
+    Signup = require('./api/models/signupListModel'),
   bodyParser = require('body-parser');
 
 mongoose.Promise = global.Promise;
