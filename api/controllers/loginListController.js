@@ -1,7 +1,7 @@
 'use strict';
 
 var mongoose = require('mongoose'),
-    Login=mongoose.model('logins');
+    Login=mongoose.model('Logins');
 
 
 exports.list_users = function (req,res) {

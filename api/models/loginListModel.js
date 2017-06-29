@@ -11,4 +11,4 @@ var loginSchema=mongoose.Schema({
 });
 
 
-module.exports = mongoose.model('logins',loginSchema);
+module.exports = mongoose.model('Logins',loginSchema);

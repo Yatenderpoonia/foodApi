@@ -1,7 +1,7 @@
 'use strict';
 
 var mongoose = require('mongoose'),
-    Signup=mongoose.model('signup');
+    Signup=mongoose.model('Signups');
 
 
 
