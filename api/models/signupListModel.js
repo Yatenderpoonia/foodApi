@@ -1,9 +1,6 @@
 'use strict';
 
-
 var mongoose = require('mongoose');
-
-
 
 var signupSchema=mongoose.Schema({
     "name":String,

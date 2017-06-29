@@ -10,8 +10,7 @@ module.exports = function(app) {
 		.get(todoList.list_all_tasks)
 		.post(todoList.create_a_task);
 	app.route('/login')
-		.get(loginList.list_users)
-		.post(loginList.create_users);
+		.post(loginList.list_users);
 	app.route('/signup')
 		.get(signupList.list_newusers)
 		.post(signupList.create_newusers);
