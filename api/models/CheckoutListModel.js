@@ -10,7 +10,9 @@ var checkoutSchema=mongoose.Schema({
     "Delivery_address":String,
     "items":[{"name":String,"price":String,"qty":String}],
     "payment":{"cardType":String,"CardNum":String,"expire":String,"cvc":String},
-    "total":Number
+    "totalamount":String,
+    "resturant name":String,
+    "resturant address":String
 });
 
 

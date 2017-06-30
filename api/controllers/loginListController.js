@@ -7,6 +7,7 @@ var mongoose = require('mongoose'),
 exports.list_users = function (req,res) {
     var email = req.body.email;
     var password=req.body.password;
+    var name=req.body.name;
     Login.findOne({email:email,password:password},function (err,doc) {
         if(err){
             console.log(err);
@@ -15,7 +16,7 @@ exports.list_users = function (req,res) {
 if(!doc){
             return res.status(404).send({"isSuccess":false});
 }
-        return res.status(200).send({"isSuccess":true,id:doc._id});
+        return res.status(200).send({"isSuccess":true,id:doc._id,"name":doc.name});
     });
 
 };

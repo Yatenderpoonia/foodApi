@@ -6,10 +6,10 @@ var mongoose = require('mongoose'),
 
 
 exports.list_newusers = function (req,res) {
-    Signup.find({},function (err,signup) {
+    Signup.find({},function (err,doc) {
         if(err)
             res.send(err);
-        res.json(signup);
+        res.json(doc);
     })
 
 };
@@ -17,9 +17,9 @@ exports.list_newusers = function (req,res) {
 
 exports.create_newusers= function(req, res) {
     var new_signup = new Signup(req.body);
-    new_signup.save(function(err, signup) {
+    new_signup.save(function(err, doc) {
         if (err)
             res.send(err);
-        res.json(signup);
+        res.json(doc);
     });
 };
