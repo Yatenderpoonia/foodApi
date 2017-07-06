@@ -5,6 +5,7 @@ module.exports = function(app) {
     var CheckoutList=require('../controllers/CheckoutListController');
     var loginList=require('../controllers/loginListController');
     var signupList=require('../controllers/signupListController');
+    var locationList=require('../controllers/locationController');
 	// todoList Routes
 	app.route('/feedback')
 		.get(todoList.list_all_tasks)
@@ -17,6 +18,11 @@ module.exports = function(app) {
 	app.route('/checkout')
 		.get(CheckoutList.list_checkout)
 	    .post(CheckoutList.create_checkout);
+	app.route('/location')
+		.get(locationList.list_location)
+	    .post(locationList.create_location);
+    app.route('/location/name=:name')
+        .get(locationList.read_location);
 	app.route('/tasks/:taskId')
 		.get(todoList.read_a_task)
 		.put(todoList.update_a_task)
