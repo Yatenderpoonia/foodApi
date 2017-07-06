@@ -9,8 +9,8 @@ var express = require('express'),
   Task = require('./api/models/todoListModel'),
   bodyParser = require('body-parser');
 
-mongoose.Promise = global.Promise;
-//mongoose.connect('mongodb://yatenderpoonia1:yatender123@ds141242.mlab.com:41242/food_database');
+//mongoose.Promise = global.Promise;
+mongoose.connect('mongodb://yatenderpoonia1:yatender123@ds141242.mlab.com:41242/food_database');
 mongoose.connect('mongodb://localhost/Tododb');
 
 var allowCrossDomain = function(req, res, next) {
