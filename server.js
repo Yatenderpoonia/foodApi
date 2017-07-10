@@ -2,7 +2,7 @@ var express = require('express'),
   app = express(),
   port = process.env.PORT || 5000,
   mongoose = require('mongoose'),
-    Resturant=require('./api/models/resturantModel'),
+    Resturnant=require('./api/models/resturantModel'),
     Location=require('./api/models/locationModel'),
     Signup = require('./api/models/signupListModel'),
     Checkout = require('./api/models/CheckoutListModel'),
@@ -10,7 +10,7 @@ var express = require('express'),
   bodyParser = require('body-parser');
 
 //mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://yatenderpoonia1:yatender123@ds141242.mlab.com:41242/food_database');
+//mongoose.connect('mongodb://yatenderpoonia1:yatender123@ds141242.mlab.com:41242/food_database');
 mongoose.connect('mongodb://localhost/Tododb');
 
 var allowCrossDomain = function(req, res, next) {

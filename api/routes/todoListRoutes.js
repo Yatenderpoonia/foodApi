@@ -29,6 +29,8 @@ module.exports = function(app) {
         .post(resturantList.create_resturant);
     app.route('/resturant/city_id=:city_id&city=:city')
         .get(resturantList.read_resturant);
+    app.route('/resturant/res_id=:res_id')
+		.get(resturantList.readByresId);
 	app.route('/tasks/:taskId')
 		.get(todoList.read_a_task)
 		.put(todoList.update_a_task)
