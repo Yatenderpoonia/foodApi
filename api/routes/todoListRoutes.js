@@ -7,6 +7,7 @@ module.exports = function(app) {
     var signupList=require('../controllers/signupListController');
     var locationList=require('../controllers/locationController');
     var resturantList=require('../controllers/resturantController');
+    var menuList=require('../controllers/menuController');
 	// todoList Routes
 	app.route('/feedback')
 		.get(todoList.list_all_tasks)
@@ -31,6 +32,11 @@ module.exports = function(app) {
         .get(resturantList.read_resturant);
     app.route('/resturant/res_id=:res_id')
 		.get(resturantList.readByresId);
+    app.route('/menu')
+		.get(menuList.listMenu)
+		.post(menuList.createMenu);
+    app.route('/menu/cuisine=:cuisine')
+		.get(menuList.readMenu);
 	app.route('/tasks/:taskId')
 		.get(todoList.read_a_task)
 		.put(todoList.update_a_task)

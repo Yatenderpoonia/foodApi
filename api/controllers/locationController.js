@@ -14,11 +14,14 @@ exports.list_location = function (req,res) {
 };
 
 exports.read_location = function(req, res) {
-    Location.find({name:{$regex:req.params.name,$options: 'i'}}, function(err, doc) {
-        if (err)
-            res.send(err);
-        res.json(doc);
-    });
+   //ar name =req.params.name;
+    var name = {$regex:req.params.name,$options:'i'};
+        Location.find({name:name}, function(err, doc) {
+            if (err)
+                res.send(err);
+            res.json(doc);
+        });
+
 };
 
 exports.create_location = function(req, res) {
