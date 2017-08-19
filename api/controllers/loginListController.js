@@ -5,10 +5,10 @@ var mongoose = require('mongoose'),
 
 
 exports.list_users = function (req,res) {
-    var email = req.body.email;
+    var mobile = req.body.mobile;
     var password=req.body.password;
     var name=req.body.name;
-    Login.findOne({email:email,password:password},function (err,doc) {
+    Login.findOne({mobile:mobile,password:password},function (err,doc) {
         if(err){
             console.log(err);
             return res.status(500).send();

@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 
 var signupSchema=mongoose.Schema({
     "name":String,
-    "email":String,
+    "mobile":String,
     "password":String
 });
 

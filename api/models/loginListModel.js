@@ -6,7 +6,7 @@ var mongoose = require('mongoose');
 
 
 var loginSchema=mongoose.Schema({
-    "email":String,
+    "mobile":String,
     "password":String
 });
 
